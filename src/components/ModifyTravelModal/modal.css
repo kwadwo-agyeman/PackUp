@@ -1,0 +1,96 @@
+.modal--container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 24;
+    padding: 20px;
+    overflow: auto;
+}
+
+.close--btn{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.modal--container--top{
+    background-color: #002D62;
+}
+
+.book--checkin--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    margin-top: 3.0rem;
+}
+
+
+/* ********** MIDDLE TOP *********** */
+.modal--middle--top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.modal--middle--top .destination{
+    text-align: center;
+    color: #212020;
+}
+
+.two--sided--arrow{
+    font-size: 70px;
+    margin-top: -20px;
+    color: rgb(243, 26, 26);
+}
+
+.trip--input--container, .trip--date--container{
+    display: flex;
+    justify-content: center;
+}
+.trip--input, .date--input{
+    width: 90vw;
+}
+
+.trip--date--container{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.date--input{
+    
+}
+
+
+.modal--bottom--banner{
+    background: #002D62;
+    height: 30vh;
+}
+
+.roundTrip--select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+.search--btn{
+    background: rgb(249, 11, 11);
+    width: 40vw;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid rgb(249, 11, 11);
+}
+
+.search--btn:hover{
+    border: 2px solid rgb(249, 11, 11);
+    background-color: white;
+    color: rgb(249, 11, 11);
+    cursor: pointer;
+ 
+}

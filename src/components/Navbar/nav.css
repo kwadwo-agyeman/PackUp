@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #002d62;
+  width: 100vw;
+  color: #fff;
+}
+
+/* LARGE NAVBAR  */
+
+.lg--navbar--top--left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.lg--navbar--top--right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+.login--container {
+  background: white;
+  padding: 0 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.login--container h4 {
+  color: #002d62;
+  margin: 0;
+}
+
+

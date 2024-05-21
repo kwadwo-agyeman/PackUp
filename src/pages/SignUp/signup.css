@@ -1,0 +1,67 @@
+.signup--container {
+  background: linear-gradient(
+      270deg,
+      rgb(9, 219, 145, 0.2),
+      rgb(0, 45, 98, 0.3)
+    ),
+    url(../../assets/signupBG.jpg);
+  height: 100vh;
+  overflow: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  background-color: rgb(0, 45, 98,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  gap: 12px;
+  position: fixed;
+  z-index: 45;
+  width: 100vw
+}
+.logo--container {
+  color: white;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: -2px -2px 50px #5c8dc6;
+}
+.logo--container > .logo {
+  width: 40px;
+  background-color: white;
+}
+
+.form--container{
+    background-color: rgb(0, 45, 98,.5);
+    margin-top: 170px;
+    margin-bottom: 170px;
+    /* width: 50vw; */
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 120vh; */
+    padding: 5px;
+}
+
+.tab{
+    background: white;
+    padding: 20px;
+    color: rgb(76, 75, 75);
+}
+
+.next--btn{
+    background-color: rgb(248, 37, 37);
+    width: 30%;
+    margin: 0 auto;
+    padding: 3px 2px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}

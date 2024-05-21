@@ -1,0 +1,9 @@
+.sidebar--container{
+    background: #002d62;
+    color: white;
+}
+
+.sidebar--text{
+    font-size: 18px;
+    text-align: center;
+}
